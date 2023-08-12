@@ -70,4 +70,5 @@ body{
     transition: background-color .4s, opacity .4s, color .4s;
     border:none;
     margin-top:30px;
+    cursor:pointer;
 }
