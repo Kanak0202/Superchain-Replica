@@ -55,3 +55,19 @@ body{
   z-index:-1;
   opacity: 0.5;
 }
+
+.getAccessButton{
+  background-color: #1a1b1f;
+    padding: 16px 35px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-family: Polysans-Slim, sans-serif;
+    text-decoration: none;
+    transition: background-color .4s, opacity .4s, color .4s;
+    border:none;
+    margin-top:30px;
+}

@@ -47,7 +47,6 @@ const AccessComponent = styled(Box)`
     padding: 12px 25px;
     background:#1A1B1F;
 `;
-
 const LogoImage = styled("img")({
     height:"70px",
 });

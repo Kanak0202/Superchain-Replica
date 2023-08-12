@@ -49,21 +49,6 @@ const TextBox = styled(Box)`
     width:62%;
 `;
 
-const GetAccessButton = styled("button")({
-    backgroundColor: "#1a1b1f",
-    padding: "16px 35px",
-    fontSize: "14px",
-    lineHeight: "26px",
-    color: "#fff",
-    letterSpacing: "2px",
-    textTransform: "uppercase",
-    borderRadius: "0",
-    fontFamily: "Polysans-Slim, sans-serif",
-    textDecoration: "none",
-    transition: "background-color .4s, opacity .4s, color .4s",
-    border:"none",
-    marginTop:"30px"
-})
 
 const LandingSection = ()=>{
     return(
@@ -72,7 +57,7 @@ const LandingSection = ()=>{
             <TextBox>
             <Heading>The Open Index Protocol</Heading>
             <SubHeading>By collecting and customising data in minutes, ChainLink Central serves as the layer on top of which builders create applications, faster</SubHeading>
-            <GetAccessButton>GET ACCESS</GetAccessButton>
+            <button type="" className="getAccessButton">GET ACCESS</button>
             </TextBox>
             </LandingImage>
             
