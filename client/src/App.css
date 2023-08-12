@@ -147,3 +147,10 @@ body{
   text-align: left;
   margin-left:100px;
 }
+
+
+.quote{
+  width:70%;
+  padding-left: 140px;
+  padding-bottom:20px;
+}

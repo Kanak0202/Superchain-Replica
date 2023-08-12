@@ -62,7 +62,7 @@ const NetworksSupportedSection = ()=>{
             <LandingImage className="backGroundImg">
             <TextBox>
             <Heading>Networks Supported</Heading>
-            <SubHeading>Superchain currently supports common <span style={{color:"#62688f"}}>Ethereum</span> (EVM) based chains and L2s</SubHeading>
+            <SubHeading>ChainLink Central  currently supports common <span style={{color:"#62688f"}}>Ethereum</span> (EVM) based chains and L2s</SubHeading>
             </TextBox>
             <EthImage src={eth} alt="eth" />
             </LandingImage>
