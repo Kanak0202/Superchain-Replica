@@ -8,6 +8,7 @@ import AboutWeb3 from './Components/aboutWeb3/AboutWeb3';
 import Working from './Components/how Superchain works/Working';
 import Reviews from './Components/reviews/Reviews';
 import NetworksSupportedSection from './Components/networks supported/NetworksSupportedSection';
+import BackedBy from './Components/backed by/BackedBy';
 import Footer from './Components/Footer/Footer';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <SuperchainNetworkSection />
       <Reviews />
       <NetworksSupportedSection />
+      <BackedBy />
       <Footer />
     </div>
   );
