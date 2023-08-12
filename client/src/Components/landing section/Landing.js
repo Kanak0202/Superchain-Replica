@@ -5,6 +5,11 @@ import React from "react";
 //image
 import LandingSectionImage from "../../Images/LandingSectionImage.jpg";
 
+//aos
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
+
 const Section = styled(Box)`
 height:100vh;
 `;
@@ -50,13 +55,16 @@ const TextBox = styled(Box)`
 
 
 const LandingSection = ()=>{
+    useEffect(()=>{
+        AOS.init({duration:1500});
+    })
     return(
         <Section>
             <LandingImage className="backGroundImg">
             <TextBox>
-            <Heading>The Open Index Protocol</Heading>
-            <SubHeading>By collecting and customising data in minutes, ChainLink Central serves as the layer on top of which builders create applications, faster</SubHeading>
-            <button type="" className="getAccessButton">GET ACCESS</button>
+            <Heading data-aos="fade-up">The Open Index Protocol</Heading>
+            <SubHeading data-aos="fade-up">By collecting and customising data in minutes, ChainLink Central serves as the layer on top of which builders create applications, faster</SubHeading>
+            <button data-aos="fade-up" type="" className="getAccessButton">GET ACCESS</button>
             </TextBox>
             </LandingImage>
             

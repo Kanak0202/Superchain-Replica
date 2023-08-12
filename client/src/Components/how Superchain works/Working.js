@@ -41,7 +41,7 @@ const Line = styled(Typography)`
 
 const Working = ()=>{
     return(
-        <Container>
+        <Container data-aos="fade-up">
             <LeftCol>
               <Line>__</Line>
               <LeftHeading>How ChainLink Central works</LeftHeading>

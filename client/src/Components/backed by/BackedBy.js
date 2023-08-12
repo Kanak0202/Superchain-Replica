@@ -41,8 +41,8 @@ const Image = styled("img")({
 const BackedBy = ()=>{
     return (
         <Container>
-            <Text>Backed by Web3 leaders</Text>
-            <ImageContainer>
+            <Text data-aos="fade-up">Backed by Web3 leaders</Text>
+            <ImageContainer data-aos="fade-up">
                 <Image src={Blockchain} alt="Blockchain Capital" />
                 <Image src={Maven} alt="Maven" />
                 <Image src={KR} alt="KR" />

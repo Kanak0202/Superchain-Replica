@@ -85,7 +85,7 @@ const Point = styled(Typography)`
 const Reviews = ()=>{
    return(
     <Container>
-        <ContainerTop>
+        <ContainerTop data-aos="fade-up">
     <BigContent>The protocol is purpose-built and enables four key features:</BigContent>
     <BoxContent>
         <Point>1. The ability for users to become network operators</Point>
@@ -102,14 +102,14 @@ data. It is a crypto-native solution for on-chain analytics."
     <Name>Nick Gardner</Name>
     <Title>Whisper</Title>
 </ContainerTop>
-<ContainerBottom>
+<ContainerBottom data-aos="fade-up">
     <CompanyLogo src={BlockCap} alt="Blockchain Capital" />
     <BigContent>"ChainLink Central’s technology and focus on toolboxes positions it as the premier Open Index Protocol. Both James and Max have a steadfast vision of how an open, fast, and decentralized index protocol will win - which we are deeply aligned with."</BigContent>
     <PersonImage src={Kinjal} alt="Kinjal" />
     <Name>Kinjal Shah</Name>
     <Title>General Partner at Blockchain Capital.</Title>
 </ContainerBottom>
-<ContainerBottom>
+<ContainerBottom data-aos="fade-up">
     <CompanyLogo src={John} alt="Blockchain Capital" />
     <BigContent>"ChainLink Central is the most based chain of them all"</BigContent>
     <PersonImage src={JohnL} alt="Kinjal" />

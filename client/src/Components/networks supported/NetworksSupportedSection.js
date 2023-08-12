@@ -60,11 +60,11 @@ const NetworksSupportedSection = ()=>{
     return(
         <Section>
             <LandingImage className="backGroundImg">
-            <TextBox>
+            <TextBox data-aos="fade-up">
             <Heading>Networks Supported</Heading>
             <SubHeading>ChainLink Central  currently supports common <span style={{color:"#62688f"}}>Ethereum</span> (EVM) based chains and L2s</SubHeading>
             </TextBox>
-            <EthImage src={eth} alt="eth" />
+            <EthImage data-aos="fade-up" src={eth} alt="eth" />
             </LandingImage>
             
         </Section>

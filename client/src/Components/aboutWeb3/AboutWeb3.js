@@ -10,6 +10,7 @@ const Container = styled(Box)`
     padding:120px 100px;
 `;
 
+
 const Heading = styled(Typography)`
         width: 100%;
     color: #0e1015;
@@ -53,7 +54,7 @@ const AboutWeb3 = ()=>{
             {aboutData.map((data, index)=>{
                 if(index%2==0){
                     return (
-                        <LeftContent>
+                        <LeftContent data-aos="fade-up">
                             <Heading>{data.title}</Heading>
                             <Content>{data.content}</Content>
                         </LeftContent>
@@ -61,7 +62,7 @@ const AboutWeb3 = ()=>{
                 }
                 else{
                     return (
-                        <RightContent>
+                        <RightContent data-aos="fade-up">
                             <Heading>{data.title}</Heading>
                             <Content>{data.content}</Content>
                             {index===aboutData.length-1 ? <button className="getAccessButton AboutBtn">GET ACCESS</button> : <></>}

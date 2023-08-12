@@ -15,7 +15,7 @@ const SuperSection = styled(Box)`
 const SuperchainNetworkSection = ()=>{
     return(
         <SuperSection>
-            <SuperImage src={SuperchainNetwork} alt="Superchain Network" />
+            <SuperImage data-aos="fade-up" src={SuperchainNetwork} alt="Superchain Network" />
         </SuperSection>
     );
 }
